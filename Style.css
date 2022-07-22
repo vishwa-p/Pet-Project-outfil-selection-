@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+img {
+	position: absolute;
+	margin-left: 15%;
+	display: inline-block;
+	height: 100%;
+	align-items: center;
+}
+
+.boyoutfit img{
+	margin-top: 348px;
+}
+button {
+	margin-top: 20%;
+	width: 70px;
+	height: 40px;
+	font-size: 15px;
+	background-color: antiquewhite;
+	border: 2px solid cadetblue;
+	border-radius: 5px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+
+character {
+	z-index: -1000;
+}
+
+.shirt {
+	visibility: hidden;
+	z-index: 2;
+}
+
+.pant {
+	visibility: hidden;
+	z-index: 1;
+}
